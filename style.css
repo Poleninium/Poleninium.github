@@ -1,0 +1,150 @@
+/*Preparation du code*/
+
+@font-face {
+font-family: "SF";
+src: url("Font/SF-UI-Display-Regular.woff") format("woff")
+}
+
+body {
+background-color: #23272A;
+font-family: "SF";
+}
+
+/*Accueil*/
+/*Bloc 1*/
+
+.bloc{
+    width: 350px;
+    height: 100%;
+    background-color: #2a2f32;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    top: 0%
+}
+.bloc h1{
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(119, 223, 255);
+    font-weight : bold; 
+    font-size: 2rem;
+} 
+.bloc p{
+    display: block;
+    background-color:#23272A;  
+    min-width: 140px; 
+    margin: 0.5rem;               
+    padding: 0.5rem ;
+    border-radius: 5px;       
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(40, 249, 61);
+    font-weight : bold; 
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+    right: 0%;
+    bottom:0%
+} 
+@media screen and (max-width:1025px){
+    .bloc h1 {
+        font-size: 3rem;
+    }
+    .bloc p{
+        font-size: 1.8rem;
+    }
+    
+}
+/*head (Menu)*/
+
+.menu {
+    display: flex;              
+    padding:0;                      
+    position: absolute;
+    left: 45%;
+    top: 0%; 
+}
+.menu li {
+    list-style-type: none ;      
+}
+
+.menu a {
+    display:block;                
+    min-width: 180px;            
+    margin: 0.4rem;               
+    padding: 0.5rem ;            
+    text-align: center;           
+    background-color:#2a2f32;                
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;
+    color: rgb(219, 58, 224); 
+    font-weight : bold; 
+    font-size: 1.5rem;               
+} 
+@media screen and (max-width:1025px)  {
+    .menu {
+        left: 36%;
+    }
+    .menu a {
+        font-size: 1.8rem;
+    }
+}
+
+/*Bloc 2* de bienvenue*/ 
+.bloc2{
+    
+    position: absolute;
+    bottom: 45%;
+    left: 32.5%;
+    
+}
+
+.bloc2 p{
+    display: block;
+    width: 800px;
+    background-color:#23272A;  
+    margin: 0.4rem;               
+    padding: 0.6rem ;
+    border: 1px solid #fff;
+    border-radius: 5px;      
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight : bold; 
+    font-size: 1.5rem;
+
+} 
+
+@media screen and (max-width:1025px)  {
+    .bloc2{
+        left: 45%;
+    }
+    .bloc2 p{
+        width: 80%;
+        height: 70%;
+        font-size: 2.5rem;
+    }
+}
+/*Footer*/
+.footer {
+    padding: 1%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    font-size: 0.8rem;
+    color: rgb(249, 202, 81);
+}
+
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
